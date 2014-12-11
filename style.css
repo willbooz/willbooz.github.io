@@ -6,6 +6,10 @@ author: Will Booz
 */
 
 /*imports*/
+@font-face {
+	font-family: league_gothic;
+	src: url(LeagueGothic-CondensedRegular.otf);
+}
 
 /*main page*/
 #home-content {
@@ -22,7 +26,7 @@ author: Will Booz
 }
 
 #home-text {
-	font-family: Tahoma, sans-serif;
+	font-family: league_gothic, Tahoma, sans-serif;
 	font-size: 16px;
 	width: 400px;
 	margin-left: auto;
