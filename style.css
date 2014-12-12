@@ -8,12 +8,12 @@ author: Will Booz
 /*fonts*/
 @font-face {
 	font-family: josephin_bold;
-	src: url(JosefinSlab-Bold.ttf);
+	src: url(JosefinSlab-Bold.ttf) format(truetype);
 }
 
 @font-face {
 	font-family: josephin_italic;
-	src: url(JosefinSlab-Italic.ttf);
+	src: url(JosefinSlab-Italic.ttf) format(truetype);
 }
 
 /*main page*/
