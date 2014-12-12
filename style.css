@@ -5,45 +5,76 @@ date: December 2014
 author: Will Booz
 */
 
-/*imports*/
+/*fonts*/
 @font-face {
-	font-family: league_gothic;
-	src: url(LeagueGothic-CondensedRegular.otf);
+	font-family: josephin_bold;
+	src: url(JosefinSlab-Bold.ttf);
+}
+
+@font-face {
+	font-family: josephin_italic;
+	src: url(JosefinSlab-Italic.ttf);
 }
 
 /*main page*/
-#home-content {
-	position: relative;
-	top: 100px;
-}
-
-#headshot {
-	width: 300px;
-	height: 300px;
-	display: block;
+#top-row {
+	width: 34em;
+	height: 10em;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 15em;
 }
 
-#home-text {
-	font-family: league_gothic, Tahoma, sans-serif;
-	font-size: 16px;
-	width: 400px;
+#bottom-row {
+	width: 34em;
+	height: 10em;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
+	margin-top: 1em;
 }
 
-a:link {
-	color: #999999;
-	text-decoration: none;
+.top {
+	width: 10em;
+	height: 10em;
+	display: inline-block;
+	margin-left: 1em;
 }
 
-a:visited {
-	color: #999999;
-	text-decoration: none;
+.bottom {
+	width: 10em;
+	height: 10em;
+	display: inline-block;
+	margin-left: 1em;
 }
 
-a:hover {
-	color: #808080;
+#first-name {
+	font-family: josephin_bold, sans-serif;
+	font-size: 3.5em;
+	float: right;
+	margin-top: .25em;
+	letter-spacing: .04em;
+}
+
+#last-name {
+	font-family: josephin_bold, sans-serif;
+	font-size: 3.5em;
+	float: right;
+	margin-top: -1em;
+}
+
+#caption {
+	font-family: josephin_italic, sans-serif;
+	font-size: 1.5em;
+	margin-top: -2em;
+	float: right;
+}
+
+.icon {
+	width: 10em;
+	height: 10em;
+	margin: none;
+}
+
+.icon:hover {
+	opacity: 0.5;
 }
